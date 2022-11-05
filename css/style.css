@@ -1,4 +1,135 @@
 body {
     background-color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font: 30px normal;
+    font-family: DM-Serif-Display;
+    color: rgb(51, 51, 51);
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap:unset;
+    background-color: white;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+    align-items: center;
+}
+
+header > * {
+    flex:1;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    border: none;
+}
+
+.nav-div {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    font-stretch: narrower;
+    text-decoration: none;
+    transition: color 0.2s ease 0s;
+    text-align: center;
+}
+
+header h1:hover {
+    text-decoration: underline;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    margin-right: 15px;
+    font-family: Archivo, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: color 0.2s ease 0s;
+}
+
+.container1 { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    align-items: center;
+}
+
+.container1 > * {
+     flex: 1;
+}
+
+.container1 div {
+    text-align: center;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding: 25px 0;
+}
+
+.container1 h1 {
+    font-weight: bolder;
+    font-size: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.container1 h3 {
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.container1 a {
+    font-size: 17px;
+    font-family: Archivo, sans-serif;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    font-size: 25px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.container2 > * {
+    flex:1;
+}
+
+.container2 h3 {
+    font-size: 25px;
+    margin: 10px 20px;
+}
+
+.container2 ul {
+    margin: auto;
+}
+
+.container2 li {
+    font-size: 20px;
+    font-family: Archivo, sans-serif;
+    color: black;
+}
+
+.project-resources {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-resources a {
+    color: black;
+    font-weight: 600;
+    transition: color 0.2s ease 0s;
 }
